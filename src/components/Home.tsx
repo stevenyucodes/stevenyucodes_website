@@ -1,13 +1,15 @@
 // src/components/HomePage.tsx
+import { CenterFocusStrong, Margin } from '@mui/icons-material';
 import React from 'react';
 
 const Home: React.FC = () => {
   return (
-    <div>
-      <h1>Welcome to My Portfolio</h1>
+    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', textAlign: 'center' }}>
+      <h1>
+      Welcome to My Portfolio</h1>
       <p>This is the home page.</p>
     </div>
   );
 };
 
-export default Home
+export default Home;

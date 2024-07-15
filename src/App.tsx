@@ -37,21 +37,21 @@ import Projects from './components/Projects';
 function App() {
   return (
     <Router>
-      <AppBar position="static"sx={{ backgroundColor: '#4A6572', height: '65px', zIndex: theme => theme.zIndex.drawer + 1 }}>
+      <AppBar position="static"sx={{ backgroundColor: 'white', height: '65px', zIndex: theme => theme.zIndex.drawer + 1 }}>
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
             Stevenyucodes Portfolio
           </Typography>
-          <Button color="inherit" component={Link} to="/">
+          <Button sx={{color: 'black'}} component={Link} to="/">
             Home
           </Button>
-          <Button color="inherit" component={Link} to="/contact">
+          <Button sx={{color: 'black'}} component={Link} to="/contact">
             Contact
           </Button>
-          <Button color="inherit" component={Link} to="/projects">
+          <Button sx={{color: 'black'}} component={Link} to="/projects">
             Projects
           </Button>
-          <Button color="inherit" component={Link} to="/blog">
+          <Button sx={{color: 'black'}} component={Link} to="/blog">
             Blog
           </Button>
         </Toolbar>
