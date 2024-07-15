@@ -1,5 +1,4 @@
 // src/components/HomePage.tsx
-import { CenterFocusStrong, Margin } from '@mui/icons-material';
 import React from 'react';
 
 const Home: React.FC = () => {
