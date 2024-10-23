@@ -28,10 +28,10 @@ export default App;
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
-import Home from './components/Home';
-import Contact from './components/Contact';
-import Blog from './components/Blog';
-import Projects from './components/Projects';
+import Home from './pages/Home';
+import Contact from './pages/Contact';
+import Blog from './pages/Blog';
+import Projects from './pages/Projects';
 //import Header from './components/Header';
 
 function App() {
